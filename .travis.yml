@@ -21,6 +21,7 @@ install:
 #  - scripts/travis.sh pip install pip-accel
   - scripts/travis.sh pip install -U setuptools
   - scripts/travis.sh pip install coveralls
+  - scripts/travis.sh pip install codecov
   - scripts/travis.sh pip install --requirement=requirements-checks.txt
   - scripts/travis.sh pip install --requirement=requirements-tests.txt
   - scripts/travis.sh LC_ALL=C pip install .
@@ -29,6 +30,7 @@ script:
   - scripts/travis.sh make test
 after_success:
   - scripts/travis.sh coveralls
+  - codecov
 branches:
   except:
     - /^[0-9]/
