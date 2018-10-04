@@ -12,7 +12,10 @@ PyModbus - A Python Modbus Stack
 .. image:: http://pepy.tech/badge/pymodbus
    :target: http://pepy.tech/project/pymodbus 
    :alt: Downloads
-   
+.. image:: https://codecov.io/gh/riptideio/pymodbus/branch/master/graph/badge.svg
+   :target: https://codecov.io/gh/riptideio/pymodbus
+   :alt: Code Coverage
+  
 .. important::
    **Note This is a Major release and might affect your existing Async client implementation. Refer examples on how to use the latest async clients.**
 
