@@ -2,18 +2,10 @@ PyModbus - A Python Modbus Stack
 ================================
 
 [![image](https://travis-ci.org/riptideio/pymodbus.svg?branch=master)](https://travis-ci.org/riptideio/pymodbus)
-
 [![image](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/pymodbus_dev/Lobby)
-
 [![Documentation Status](https://readthedocs.org/projects/pymodbus/badge/?version=latest)](http://pymodbus.readthedocs.io/en/async/?badge=latest)
-
 [![Downloads](http://pepy.tech/badge/pymodbus)](http://pepy.tech/project/pymodbus)
 
-> **important**
->
-> **Note This is a Major release and might affect your existing Async
-> client implementation. Refer examples on how to use the latest async
-> clients.**
 
 Summary
 -------
@@ -63,10 +55,7 @@ will allow a user to test as many devices as their base operating system
 will allow (*allow* in this case means how many Virtual IP addresses are
 allowed).
 
-For more information please browse the project documentation:
-
-<http://riptideio.github.io/pymodbus/> or
-<http://readthedocs.org/docs/pymodbus/en/latest/index.html>
+For more information please browse the [project documentation](http://readthedocs.org/docs/pymodbus/en/latest/index.html)
 
 Example Code
 ------------
@@ -81,15 +70,11 @@ For those of you that just want to get started fast, here you go:
     print(result.bits[0])
     client.close()
 
-For more advanced examples, check out the examples included in the
+For more advanced examples, check out the [examples](https://pymodbus.readthedocs.io/en/latest/source/example/modules.html) included in the
 respository. If you have created any utilities that meet a specific
 need, feel free to submit them so others can benefit.
 
-Also, if you have questions, please ask them on the mailing list so that
-others can benefit from the results and so that I can trace them. I get
-a lot of email and sometimes these requests get lost in the noise:
-<http://groups.google.com/group/pymodbus> or at gitter:
-<https://gitter.im/pymodbus_dev/Lobby>
+For questions visit [pymodbus-google-group](http://groups.google.com/group/pymodbus) or [gitter](https://gitter.im/pymodbus_dev/Lobby)
 
 Pymodbus REPL (Read Evaluate Procee Loop)
 -----------------------------------------
