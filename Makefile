@@ -39,11 +39,11 @@ check: install
 
 test: install
 	@pip install --quiet --requirement=requirements-tests.txt
-	@echo "Install Exit status : $(?)"
+	@echo "Install Exit status : $$?"
 	@pytest --cov=pymodbus/ --cov-report term-missing
-	@echo "Test execute status : $(?)"
+	@echo "Test execute status : $$?"
 	@coverage report --fail-under=90
-	@echo "Coverage execute status : $(?)"
+	@echo "Coverage execute status : $$?"
 
 tox: install
 	@pip install --quiet tox && tox
