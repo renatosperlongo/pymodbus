@@ -42,7 +42,7 @@ test: install
 	@echo "Install Exit status : $$?"
 	@pytest --cov=pymodbus/ --cov-report term-missing
 	@echo "Test execute status : $$?"
-	@coverage report --fail-under=90
+	@coverage report --fail-under=90  --ignore-errors
 	@echo "Coverage execute status : $$?"
 
 tox: install
